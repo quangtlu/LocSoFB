@@ -1,0 +1,31 @@
+*{
+    transition: all linear 0.2s;
+}
+.app{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    position:absolute;
+    top: 0;
+    right: -120px;
+    background-color: orange;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 10px;
+    width:  auto;
+    cursor: pointer;
+    outline: none;;
+    border:none;
+}
+button:hover{
+    background-color: rgb(245, 139, 0);
+}
+textarea{
+    border:1px solid orange;
+    outline-color: orange;
+    resize: none;
+}

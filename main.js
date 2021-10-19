@@ -16,3 +16,7 @@ darkBtn.onclick = function(){
     body.classList.toggle('darkmode')
     textarrea.classList.toggle('darkmode')
 }
+text.oninput = function(){
+    text.value += '\r\n';
+}
+
